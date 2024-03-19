@@ -1,0 +1,81 @@
+h1 {
+  color: brown;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+h1 {
+  color: #2716bf;
+  margin-top: 30px;
+  animation: moveText 2s ease-in-out infinite alternate;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+p {
+  color: #000000;
+  font-size: 40px;
+}
+
+ul {
+  color: #666;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://th.bing.com/th/id/R.b3ab6038750f5a8974692e4f4c0ddff6?rik=VSKWOMMDqoZnTQ&riu=http%3a%2f%2fwww.topexcellent.com%2fimage%2fservice02.jpg&ehk=v5Vuo0hvfvNXlkWTTdQQ5izIZKCB0vQORKlebN8CF5I%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
